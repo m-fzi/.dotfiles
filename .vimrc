@@ -41,8 +41,6 @@ set sidescrolloff=10  " leave 10 characters of horizontal buffer when scrolling
 set t_ut=""           " to prevent color filling up gates (about colorschemes)
 set ttyscroll=1       " also to prevent color filling up gates (about colorschemes)  
 
-
-
 highlight comment cterm=italic gui=italic   " showcase comments in italics
 "let python_highlight_all=1
 "set foldcolumn=3
@@ -52,6 +50,7 @@ highlight comment cterm=italic gui=italic   " showcase comments in italics
 "interface
 "AU
 au BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=119 expandtab autoindent fileformat=unix
+
 
 "BUFFERS AND TABS:
 set hidden          "makes buffers hidden
@@ -73,7 +72,6 @@ nnoremap <C-H> <C-W><C-H>
 "nnoremap <C-]> g<C-]>
 
 
-
 "PLUGINS:
 "vundle:
 filetype off                  " required
@@ -81,7 +79,6 @@ set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "add plugins here:
-
 
 Plugin 'jeetsukumaran/vim-indentwise'
 
@@ -118,7 +115,6 @@ Plugin 'morhetz/gruvbox'
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_invert_selection = '0'
 colorscheme gruvbox
-
 
 "Plugin 'tpope/vim-fugitive'
 
