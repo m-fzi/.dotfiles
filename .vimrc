@@ -1,4 +1,5 @@
 "common
+"h
 inoremap jj <Esc>
 let mapleader = ' '
 "to prevent anormal space moves
