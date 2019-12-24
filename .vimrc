@@ -3,6 +3,8 @@ inoremap jj <Esc>
 let mapleader = ' '
 "to prevent anormal space moves
 noremap <Space> <Nop>  
+inoremap <F5> <Esc>:w<CR>:!clear;python3 %<CR>
+nnoremap <F5> :w !python3<CR>
 
 
 "set:
